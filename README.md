@@ -1,4 +1,4 @@
-# This is for learning version controlling
+# Section 01: This is for learning version controlling
 
 ## Step 01 : Create a repository github.com
 
@@ -28,7 +28,68 @@ git init
 git status
 ```
 
-## Step 08 : Check the git status
+## Step 08 : Add files to the git using
+
+```bash
+# Add all files in the current folder
+git add .
+
+# Add all files regardless of the folder we are in
+git add -A
+```
+
+## Step 09 : Commit the changes with a meaningful commit message
+
+```bash
+# Always should be meaningful, concise and relevant
+git commit -m "Initial project commit"
+# ex: This commit will: "Update script file"
+# ex: This commit will: "Refactor current logic"
+```
+
+## Step 10 : Check if there's any existing remote urls
+
+```bash
+git remote -v
+```
+
+## Step 11 : Check if there's any existing remote urls
+
+```bash
+git remote add origin git@github.com:<remote-url>
+
+# ex: git remote add origin git@github.com:shalithadev/react-basics-b-05.git
+```
+
+## Step 12 : Check if the remote url configured without a issue
+
+```bash
+git remote -v
+```
+
+## Step 13 : Make sure the default branch is your `main` branch
+
+```bash
+git branch -M main
+```
+
+## Step 14 : Push the local commits to the remote/cloud branch
+
+```bash
+git push -u origin main
+```
+
+## Step 15 : Check if the changes are there in the remote
+
+---
+
+# Section 02
+
+## Step 16 : Do a file change
+
+## Step 17 : Check file change in VSCode
+
+## Step 18 : Check file change in the terminal using
 
 ```bash
 git status
